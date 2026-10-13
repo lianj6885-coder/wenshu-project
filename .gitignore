@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+web/dist/
+.npm-cache/
+.next/
+out/
+
+# Env / secrets
+.env
+.env.local
+*.pem
+
+# Data / runtime
+data/
+volumes/
+chroma_data/
+*.log
+
+# Private project documents / datasets
+department_files/
+吴连捷_简历_优化版.docx
+backend/evaluation/real_document_qa.json
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
